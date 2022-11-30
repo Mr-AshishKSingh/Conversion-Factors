@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+
+
 void length(){
 
     int c,d;
@@ -42,10 +44,27 @@ void length(){
 
 
     }
-    
 
 
-}
+    int aaa ;
+    cout << " _______________________________" << endl;
+   cout << " TYPE 12 TO GO BACK " << endl;
+   cout << " TYPE 13 TO GO BACK TO HOMEPAGE  " << endl;
+   cout << " ______________________________" << endl;
+   cout << " -----> "  ; cin >> aaa;
+
+   if(aaa == 12) {
+    length();
+   }
+   else {
+    cout << " quitting " << endl;
+   }
+
+   }
+   
+
+
+
 
 void area(){
         int e,f;
@@ -91,6 +110,23 @@ void area(){
         break;
 
     }
+
+    int aab ;
+    cout << " _______________________________" << endl;
+   cout << " TYPE 12 TO GO BACK " << endl;
+   cout << " TYPE 13 TO GO BACK TO HOMEPAGE  " << endl;
+   cout << " ______________________________" << endl;
+   cout << " -----> "  ; cin >> aab;
+
+   if(aab == 12) {
+
+    area();
+
+
+   }
+   else {
+    cout << " quitting " << endl;
+   }
 
 
 }
@@ -140,6 +176,21 @@ void volume() {
         break;
     }
 
+    int aac ;
+    cout << " _______________________________" << endl;
+    cout << " TYPE 12 TO GO BACK " << endl;
+    cout << " TYPE 13 TO GO BACK TO HOMEPAGE  " << endl;
+    cout << " ______________________________" << endl;
+    cout << " -----> "  ; cin >> aac;
+
+   if(aac == 12) {
+    volume();
+    }
+   else 
+   {
+    cout << " quitting " << endl;
+   }
+
 
 }
 
@@ -162,6 +213,22 @@ void speed(){
         cout << h << " From Kilometer Per Hour to Meter Per Hour  is " << h*0.2778 << endl;
         break ;
     }
+
+    int aad ;
+    cout << " _______________________________" << endl;
+    cout << " TYPE 12 TO GO BACK " << endl;
+    cout << " TYPE 13 TO GO BACK TO HOMEPAGE  " << endl;
+    cout << " ______________________________" << endl;
+    cout << " -----> "  ; cin >> aad;
+
+   if(aad == 12) {
+    speed();
+    }
+   else 
+   {
+    cout << " quitting " << endl;
+   }
+
 
 
 }
@@ -191,6 +258,22 @@ void magneticfield() {
 
         
     }
+
+    int aae ;
+    cout << " _______________________________" << endl;
+    cout << " TYPE 12 TO GO BACK " << endl;
+    cout << " TYPE 13 TO GO BACK TO HOMEPAGE  " << endl;
+    cout << " ______________________________" << endl;
+    cout << " -----> "  ; cin >> aae;
+
+   if(aae == 12) {
+    magneticfield();
+    }
+   else 
+   {
+    cout << " quitting " << endl;
+   }
+
 
 
 }
@@ -231,6 +314,22 @@ void angle() {
         
     }
 
+    int aaf ;
+    cout << " _______________________________" << endl;
+    cout << " TYPE 12 TO GO BACK " << endl;
+    cout << " TYPE 13 TO GO BACK TO HOMEPAGE  " << endl;
+    cout << " ______________________________" << endl;
+    cout << " -----> "  ; cin >> aaf;
+
+   if(aaf == 12) {
+    angle();
+    }
+   else 
+   {
+    cout << " quitting " << endl;
+   }
+
+
 
 }
 
@@ -259,6 +358,22 @@ void force(){
 
         
     }
+
+    int aag ;
+    cout << " _______________________________" << endl;
+    cout << " TYPE 12 TO GO BACK " << endl;
+    cout << " TYPE 13 TO GO BACK TO HOMEPAGE  " << endl;
+    cout << " ______________________________" << endl;
+    cout << " -----> "  ; cin >> aag;
+
+   if(aag == 12) {
+    force();
+    }
+   else 
+   {
+    cout << " quitting " << endl;
+   }
+
 
 
 }
@@ -298,7 +413,23 @@ void mass() {
         break;
 
         
-    } 
+    }
+
+    int aah ;
+    cout << " _______________________________" << endl;
+    cout << " TYPE 12 TO GO BACK " << endl;
+    cout << " TYPE 13 TO GO BACK TO HOMEPAGE  " << endl;
+    cout << " ______________________________" << endl;
+    cout << " -----> "  ; cin >> aah;
+
+   if(aah == 12) {
+    mass();
+    }
+   else 
+   {
+    cout << " quitting " << endl;
+   }
+ 
 
 
 }
@@ -344,6 +475,22 @@ void time() {
         
     }
 
+    int aai ;
+    cout << " _______________________________" << endl;
+    cout << " TYPE 12 TO GO BACK " << endl;
+    cout << " TYPE 13 TO GO BACK TO HOMEPAGE  " << endl;
+    cout << " ______________________________" << endl;
+    cout << " -----> "  ; cin >> aai;
+
+   if(aai == 12) {
+    time();
+    }
+   else 
+   {
+    cout << " quitting " << endl;
+   }
+
+
 
 }
 
@@ -388,6 +535,22 @@ void pressure() {
 
     }
 
+    int aaj ;
+    cout << " _______________________________" << endl;
+    cout << " TYPE 12 TO GO BACK " << endl;
+    cout << " TYPE 13 TO GO BACK TO HOMEPAGE  " << endl;
+    cout << " ______________________________" << endl;
+    cout << " -----> "  ; cin >> aaj;
+
+   if(aaj == 12) {
+    pressure();
+    }
+   else 
+   {
+    cout << " quitting " << endl;
+   }
+
+
 
 }
 
@@ -416,6 +579,22 @@ void density() {
 
 
     }
+
+    int aak ;
+    cout << " _______________________________" << endl;
+    cout << " TYPE 12 TO GO BACK " << endl;
+    cout << " TYPE 13 TO GO BACK TO HOMEPAGE  " << endl;
+    cout << " ______________________________" << endl;
+    cout << " -----> "  ; cin >> aak;
+
+   if(aak == 12) {
+    density();
+    }
+   else 
+   {
+    cout << " quitting " << endl;
+   }
+
 
 }
 
@@ -464,6 +643,22 @@ void energy() {
 
     }
 
+    int aal ;
+    cout << " _______________________________" << endl;
+    cout << " TYPE 12 TO GO BACK " << endl;
+    cout << " TYPE 13 TO GO BACK TO HOMEPAGE  " << endl;
+    cout << " ______________________________" << endl;
+    cout << " -----> "  ; cin >> aal;
+
+   if(aal == 12) {
+    energy();
+    }
+   else 
+   {
+    cout << " quitting " << endl;
+   }
+
+
 
 }
 
@@ -494,6 +689,22 @@ void power() {
 
 
     }
+
+    int aam ;
+    cout << " _______________________________" << endl;
+    cout << " TYPE 12 TO GO BACK " << endl;
+    cout << " TYPE 13 TO GO BACK TO HOMEPAGE  " << endl;
+    cout << " ______________________________" << endl;
+    cout << " -----> "  ; cin >> aam;
+
+   if(aam == 12) {
+    power();
+    }
+   else 
+   {
+    cout << " quitting " << endl;
+   }
+
 
 
 }
@@ -526,9 +737,114 @@ void thermal() {
 
     }
 
+    int aan ;
+    cout << " _______________________________" << endl;
+    cout << " TYPE 12 TO GO BACK " << endl;
+    cout << " TYPE 13 TO GO BACK TO HOMEPAGE  " << endl;
+    cout << " ______________________________" << endl;
+    cout << " -----> "  ; cin >> aan;
+
+   if(aan == 12) {
+    thermal();
+    }
+   else 
+   {
+    cout << " quitting " << endl;
+   }
+
+
 
 }
-int main () {
+
+void home() {
+
+    int  xyz;
+    cout << "______________________________________"  << endl;
+    cout << " ENTER THE OPERATION YOU WANT TO PERFORM  " << endl;
+    cout << " TYPE (1) (2) (3) (4) (5) (6) (7) (8)" << endl;
+    cout << " 1 => LENGTH  " << endl;
+    cout << " 2 => AREA " << endl;
+    cout << " 3 => VOLUME " << endl;
+    cout << " 4 => SPEED " << endl;
+    cout << " 5 => MAGNETIC FIELD " << endl;
+    cout << " 6 => ANGLE AND ANGULAR SPEED " << endl;
+    cout << " 7 => FORCE " << endl;
+    cout << " 8 => MASS" << endl;
+    cout << " 9 => TIME " << endl;
+    cout << " 10 => PRESSURE " << endl;
+    cout << " 11 => DENSITY " << endl;
+    cout << " 12 => ENERGY " << endl;
+    cout << " 13 => POWER" << endl;
+    cout << " 14 => THERMAL CONDUCTIVITY " << endl;
+    cout << " ______________________________________" << endl;
+    cout << " ------ >" ; cin >> xyz ;
+    cout << "_______________________________________" << endl;
+
+    switch(xyz) {
+
+        case 1:
+        length();
+        break ;
+
+        case 2:
+        area();
+        break;
+
+        case 3:
+        volume();
+        break;
+
+        case 4:
+        speed();
+        break;
+        
+        case 5:
+        magneticfield();
+        break;
+
+        case 6:
+        angle();
+        break;
+
+
+        case 7:
+        force();
+        break;
+
+        case 8:
+        mass();
+        break;
+
+        case 9:
+        time();
+        break;
+
+        case 10:
+        pressure();
+        break;
+
+        case 11:
+        density();
+        break;
+
+        case 12:
+        energy();
+        break;
+
+        case 13:
+        power();
+        break;
+
+        case 14:
+        thermal();
+        break;
+    }
+
+
+}
+
+
+int main() {
 
     
     int  b;
